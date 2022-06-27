@@ -1,10 +1,10 @@
-const myName = "Faith";
-const myHeight = '178cm';
-const myCountry = 'Nigeria';
+const myName = prompt("What's your name?");
+const myHeight = prompt("What's your height?");
+const myCountry = prompt("What's your country?");
 
-//console.log(myName);
-//console.log(myHeight);
-//console.log(myCountry);
+console.log('Your name is ' + myName);
+console.log('Your height is ' + myHeight);
+console.log('Your country is ' + myCountry);
 
 alert('Hello! My name is Faith. I am 5 feet 8 inches tall and I am from Nigeria.');
 
